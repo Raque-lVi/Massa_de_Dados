@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <title>Massa de Dados</title>
+
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link rel="stylesheet" href="./src/css/reset.css">
+            <link rel="stylesheet" href="./src/css/style.css">
+            <link rel="stylesheet" href="./src/css/StyleLogin.css">
+
+            <link rel="shortcut icon" href="https://cdn.glitch.global/fd06fedf-8cb1-4823-b565-9cbd742af1fa/pao.png?v=1690289051894" type="image/x-icon">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+            <link rel="shortcut icon" href="https://cdn.glitch.global/fd06fedf-8cb1-4823-b565-9cbd742af1fa/pao.png?v=1690289051894" type="image/x-icon">
+            
+        </head>
+        <body>
+
+            <header >
+              <div class="logo">
+                  <a href="index.html">
+                    <img src="https://cdn.glitch.global/fd06fedf-8cb1-4823-b565-9cbd742af1fa/Logo.png?v=1690481574506" alt="Logo do Restaurante">
+                  </a>
+              </div>
+              <nav>
+                  <ul>
+                      <li><a class="cabeca" href="quemsomos.html">Quem Somos</a></li>
+                      <li><a class="cabeca" href="areacliente.html">Área do Cliente</a></li>
+                      <li><a class="cabeca" href="#galeria">Galeria</a></li>
+                      <li><a class="cabeca" href="#cardapio">Cardápio</a></li>
+                  </ul>
+              </nav>
+              <div class="login">
+                  <a class="ppp"> </a>
+              </div>
+          </header>
+
+          <section class="exposicao_titulo">
+            <div class="grade" id="grade">
+              <img src="https://cdn.glitch.global/fd06fedf-8cb1-4823-b565-9cbd742af1fa/doughnuts-g00c701698_1280.jpg?v=1690573104938" >
+              <img src="https://cdn.glitch.global/fd06fedf-8cb1-4823-b565-9cbd742af1fa/doughnuts-g00c701698_1280.jpg?v=1690573104938" >
+            </div>
+            <div class="cima_login">
+                
+                <center>
+                  
+              <form action="./src/php/Login.php" method="post" class="formulario">
+                  <legend class="labAutent">AUTENTICAÇÃO</legend>
+              <br><br>
+                  <label for="fname" >Login:</label>
+                  <input type="text" name="loginText" id="loginText" class="Text">
+                  <br><br>
+                  <label for="fname" >Senha:</label>
+                  <input type="password" name="senhaText" id="senhaText" class="Text">
+                  <br><br>
+                  <input type="submit" name=" Enviar " class="botao">
+              </form>
+              </center>
+            </div>
+        
+        </section>
+
+          
+          
+          <!-- Rodapé -->
+       <footer class="rodape">
+            <div class="conteudo">
+              <div class="logor">
+                <a href="index.html">
+                    <img src="https://cdn.glitch.global/fd06fedf-8cb1-4823-b565-9cbd742af1fa/Logo.png?v=1690481574506" alt="Logo do Restaurante">
+                  </a>
+              </div>
+              <div class="informacoes-contato">
+                <div class="informacoes-contato">
+                  <h4>Entre em contato conosco</h4>
+                  <a href="https://goo.gl/maps/TkvaCb3cqvr2d1Dj6" target="_blank">
+                    <p>
+                      <i class="fas fa-map-marker-alt icone"></i>
+                      Endereço: Rua dos prazeres, 69
+                    </p>
+                  </a>
+                  <p>
+                    <i class="fas fa-phone-alt icone"></i>
+                    Telefone: (84) 99686-1951
+                  </p>
+                </div>
+              </div>
+              <div class="redes-sociais">
+                <h4>Siga-nos nas redes sociais</h4>
+                <ul>
+                  <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f icone"></i></a></li>
+                  <li><a href="#" target="_blank" class="twitter"><i class="fab fa-twitter icone"></i></a></li>
+                  <li><a href="#" target="_blank" class="instagram"><i class="fab fa-instagram icone"></i></a></li>
+                  <li><a href="#" target="_blank" class="whatsapp"><i class="fab fa-whatsapp icone"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+          
+          
+      </body>
+    </html>
