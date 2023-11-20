@@ -1,0 +1,49 @@
+
+
+/*lado da foto*//*lado da foto*/
+
+.pessoal{
+    
+    display: flex;
+    border: 2px solid black;
+    margin: 20px;
+    
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+.img_pessoal{
+    width: 40vh;
+    margin: 20px;
+   
+}
+
+.p_pessoal{
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
+/*lado do endereco*//*lado do endereco*/
+
+
+.div_Endereco{
+    margin-top: 20px;
+
+}
+
+.div_Endereco h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.linha_pessoal{
+    display: flex;
+}
+
+
+
+
+
