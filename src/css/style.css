@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;700&display=swap');
 
+:root{
+  --cor_principal: #9b0800;
+  --cor_basic: #bb9457;
+  --cor_fundo: #1d2440;
+  --cor_black: black;
+  --cor_white: white;
+}
+
 
 body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
     margin: 0;
-    background-color: #1d2440;
+    background-color: var(--cor_fundo);
     
 }
 
 
 
 header {
-    background-color: #9b0800;
+    background-color: var(--cor_principal);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +44,7 @@ nav ul {
 }
 
 .cabeca {
-    color: #ffffff;
+    color: var(--cor_white);
     text-decoration: none;
     font-weight: bolder;
     padding: 15px;
@@ -46,8 +54,8 @@ nav ul {
 .cabeca:hover {
 
     border-radius: 15px;
-    background-color: #ffffff;
-    color: #9b0800;
+    background-color: var(--cor_white);
+    color: var(--cor_principal);
 }
 .login a {
     margin-right: 10px;
@@ -63,8 +71,8 @@ section h2 {
 
 /* Rodapé */
 .rodape {
-    background-color: #bb9457;
-    color: #fff;
+    background-color: var(--cor_basic);
+    color: var(--cor_white);
     padding: 10px 0;
     position: relative;
     bottom: 0;
@@ -118,7 +126,7 @@ section h2 {
   }
   
   .redes-sociais a {
-    color: #fff;
+    color: var(--cor_white);
     font-size: 29px; 
     transition: color 0.3s, transform 0.3s;
   }
@@ -147,16 +155,16 @@ section h2 {
   }
   
   .rodape a:link {
-    color: white;
+    color: var(--cor_white);
     text-decoration: none;
   }
   
   .rodape a:visited {
-    color: white; 
+    color: var(--cor_white);
   }
   
   .rodape a:hover {
-    color: #9b0800; 
+    color: var(--cor_principal)
   }
   
   .rodape a:active {
@@ -230,6 +238,11 @@ section h2 {
     margin-right: 10px;
 
 }
+#image-gallery img:hover {
+  transform: scale(1.03);
+  transition: 0.2s all ease-in-out;/*animação sinha*/
+
+}
 
 .prev, .next {
     cursor: pointer;
@@ -268,10 +281,10 @@ section h2 {
     margin-top: -3%;
 }
 .cima{
-    background: rgb(0, 0, 0);
+    background: var(--cor_black);
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(56, 56, 56, 0.336)45%, rgb(0, 0, 0) 100%);
     text-align: center;
-    color: #ffffff;
+    color: var(--cor_white);
     height: 100%;
     width: 100%;
     margin-right: 0;
@@ -280,7 +293,7 @@ section h2 {
 }
 .h2_padaria{
     font-size: 55px;
-    color: #1d2440;
+    color: var(--cor_fundo);
     padding: 1%;
     font-weight: bolder;
     font-family: 'Bebas Neue', sans-serif;
@@ -293,7 +306,7 @@ section h2 {
 
 .h1_titulo{
     font-size: 70px;
-    color: #ffffff;
+    color: var(--cor_white);
     padding: 10px;
     padding-top: 10%;
     font-weight: bolder;
@@ -301,7 +314,7 @@ section h2 {
 }
 .h5_melhor{
     font-size: 25px;
-    color: #1d2440;
+    color: var(--cor_fundo);
     padding-bottom: 30%;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -313,7 +326,7 @@ section h2 {
     display: flex;
     transform: transform 0.40s ease-in-out;
     transform: translateX(0);
-    background-color: black;
+    background-color: var(--cor_black);
     position: absolute;
     
 }

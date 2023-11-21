@@ -1,4 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;700&display=swap');
 
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #1d2440;
+    
+}
+
+
+
+header {
+    background-color: #9b0800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+
+    width: 100px;
+    max-width: 100%; 
+    margin-left: 5px;
+    height: auto; 
+    
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeca {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 15px;
+    font-size: 18px;
+    transition: 0.8s;
+}
+.cabeca:hover {
+
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #9b0800;
+}
+.login a {
+    margin-right: 10px;
+}
+
+.galeria {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #333;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #bb9457;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .informacoes-contato {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .informacoes-contato p {
+    margin: 5px 0;
+  }
+  
+  .logor {
+    flex: 1;
+    text-align: left; 
+  }
+  
+  .logor img {
+    max-width: 90%;
+    height: auto;
+    
+  }
+  
+  .redes-sociais {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .redes-sociais ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .redes-sociais li {
+    margin-right: 15px; /
+  }
+  
+  .redes-sociais a {
+    color: #fff;
+    font-size: 29px; 
+    transition: color 0.3s, transform 0.3s;
+  }
+  .fab {
+    display: inline-block;
+  }
+  
+  a.facebook:hover i {
+    color: #3b5998;
+  }
+  
+  a.twitter:hover i {
+    color: #1da1f2;
+  }
+  
+  a.instagram:hover i {
+    color: #e4405f;
+  }
+  
+  a.whatsapp:hover i {
+    color: #25d366;
+  }
+  
+  .rodape a:hover i {
+    transform: scale(1.2); /* Aumenta o tamanho dos ícones em 20% quando o mouse passa por cima */
+  }
+  
+  .rodape a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .rodape a:visited {
+    color: white; 
+  }
+  
+  .rodape a:hover {
+    color: #9b0800; 
+  }
+  
+  .rodape a:active {
+    color: #dc143c; 
+  }
+  
+  .login {
+      display: flex;
+      align-items: center;
+  }
+  
+  .login a {
+      margin-right: 10px;
+  }
+  
+  
+  #banner {
+      width: 100%;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.5s ease-in-out;
+  }
+  
 
 /*lado da foto*//*lado da foto*/
 
@@ -8,14 +190,24 @@
     border: 2px solid black;
     margin: 20px;
     
-    width: 50%;
+    width: 80%;
     border-radius: 20px;
-
+    color: #bb9457;
+    background-color: #9b0800;
+    text-transform: uppercase;
+    justify-content: space-around;
+/*#1d2440*/
+}
+.div_img_nome{
+    display: block;
+    justify-content: center;
 }
 
 .img_pessoal{
-    width: 40vh;
+    width: 30vh;
     margin: 20px;
+    border: white 5px solid;
+    border-radius: 40px;
    
 }
 
@@ -24,6 +216,9 @@
     font-size: 20px;
 }
 
+.linha_pessoal:hover , .p_pessoal:hover{
+    color: #ffffff;
+}
 
 
 /*lado do endereco*//*lado do endereco*/
